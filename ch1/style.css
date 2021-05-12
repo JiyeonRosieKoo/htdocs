@@ -1,0 +1,39 @@
+#header-center{
+  margin: 0 auto;
+  width: 1114px;
+}
+#header-center-top{
+  display: inline;
+  float: right;
+  top: 12px;
+  right: 27px;
+  font-size: 8px;
+}
+#header-center-right{
+  color: gray;
+}
+#header-search > h1{
+  width: 222px;
+  height: 52px;
+  display: inline-block;
+  background-image: url(./naver_logo.png);
+  background-size: 440px 408px;
+  background-position: 0 -158px;
+  text-indent: : 100%
+  overflow: hidden;
+}
+
+#header-search fieldset{
+  width: 520px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.blind{
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+}
