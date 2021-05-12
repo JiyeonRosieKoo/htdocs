@@ -1,0 +1,19 @@
+body.white{
+  background-color: White;
+  color: Black;
+}
+body.black{
+  background-color: Black;
+  color: White;
+}
+
+#logo{
+  width: 100px;
+}
+#control{
+  float: right;
+}
+
+.container{
+  padding-top: 20px;
+}
