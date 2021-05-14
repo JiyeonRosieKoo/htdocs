@@ -1,0 +1,14 @@
+#textForm{
+  display: inline-block;
+  width: 200px;
+}
+
+#button_1{
+}
+body{
+  margin: 50px 50px 50px 50px;
+  padding: 30px 30px 30px 30px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  text-align: center;
+}

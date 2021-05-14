@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="http://localhost:8080/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="http://localhost:8080/Games/Party/people.css">
+  <title>Party Game - 끝말잇기</title>
+</head>
+
+<body>
+  <div><span id="order">1</span>번째 참가자</div>
+  <div>제시어: <span id="word"></span></div>
+  <input class="form-control" id="textForm" placeholder="Text input" onkeypress="if( event.keyCode == 13 ){onClickButton();}"></input>
+  <input type="button" id="button_1" class="btn btn-default" value="입력" />
+
+  <script src="http://localhost:8080/Games/Party/people.js" charset="utf-8"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="http://localhost:8080/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
