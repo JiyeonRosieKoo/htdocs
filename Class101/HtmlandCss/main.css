@@ -1,0 +1,16 @@
+ht{
+  color: red;
+}
+
+div{
+  border: 1px solid red;
+}
+
+div p{
+  color: green;
+}
+
+
+div > p:nth-child(1){
+  color: blue;
+}
