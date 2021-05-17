@@ -1,0 +1,24 @@
+.Menu{
+  display: flex;
+  padding: 10px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  height: 600px;
+}
+
+#sideMenu{
+  flex: 2;
+  background: #0d6efd;
+  color: #fff;
+  padding: 0 10px;
+}
+
+#list > li{
+  padding: 9px 0;
+  list-style: none;
+}
+
+#contents{
+  flex: 10;
+  padding: 50px 50px;
+}
