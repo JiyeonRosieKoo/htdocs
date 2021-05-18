@@ -1,0 +1,13 @@
+@import "config";
+
+button{
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 50px;
+  background: $primary-color;
+  color: $primary-text;
+  &:hover{
+    transform: scale(0.9);
+  }
+}
