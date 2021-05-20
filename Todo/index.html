@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width">
+    <title>Todo-List</title>
+    <link rel="stylesheet" href="./style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1>TODO</h1>
+        <div class="input-box">
+          <label for="todo-input">Todo: </label>
+          <input type="text" id="todo-input" placeholder="make a list" class="inputput"/>
+        </div>
+      </header>
+
+      <section class="section">
+        <div class="option">
+          <span class="option-like">Priority</span>
+          <span class="option-item">Toto List</span>
+          <span class="option-manage">Check</span>
+        </div>
+        <ul class="todo-list">
+          <li>
+            <span class="todo-like">
+              <i class="material-icons like">favorite</i>
+            </span>
+            <span class="todo-item">6시 기상</span>
+            <span class="todo-manage">
+              <i class="material-icons check">check</i>
+              <i class="material-icons clear">clear</i>
+            </span>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <a class="waves-effect waves-light btn" id="allClear">전체삭제</a>
+    <script src="./main.js" charset="utf-8"></script>
+
+  </body>
+</html>
