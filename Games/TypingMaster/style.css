@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(to left, #FBD786, #f7797d);
+  color: #fff;
+}
+
+.section{
+  overflow: hidden;
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  background-color: whitesmoke;
+  background-image: url(https://apvarun.github.io/toastify-js/example/pattern.png);
+}
+
+.word-display{
+  margin-top: 3rem;
+  font-size: 80px;
+  color : #ad5389;
+}
+
+.word-input-box{
+  border: none;
+  margin-top: 2rem;
+}
+
+.word-input{
+  padding: 0.5rem;
+  width: 300px;
+}
+
+.game-info{
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.game-info span{
+  font-size: 30px;
+  margin-right: 1rem;
+}
+
+.button-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-level{
+  margin-top: 3rem;
+}
+.button-level button{
+  padding-left: 2px;
+  padding-right: 2px;
+  color: #fff;
+  background: #ccc;
+  border: none;
+  border-radius: 5px;
+}
+
+.text_area{
+  font-size: 16px;
+  height: 16px;
+}
+
+.button{
+  width: 200px;
+  height: 35px;
+  background: linear-gradient(to left, #FBD786, #f7797d);
+  color: #fff;
+  border: none;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.loading{
+  background: #ccc;
+  cursor: not-allowed;
+}
