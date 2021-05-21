@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width">
+    <title>Search - National Weather Service</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="http://localhost:8080/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1> Weather Search </h1>
+        <select id="weather-select">
+          <option value="Seoul">Seoul</option>
+          <option value="Beijing">Beijing</option>
+          <option value="Daegu">Daegu</option>
+          <option value="Busan">Busan</option>
+        </select>
+      </header>
+
+      <section class="main-section">
+        <div class="info">
+          <p class="location">Seoul</p>
+          <p class="temperature">
+            <span>3</span>&deg;C
+          </p>
+          <p class="weather">
+            <img src="https://placeimg.com/50/50/1" alt="1" />
+          </p>
+          <p class="details">
+            <span class="windchill">Windchill <span>7</span>&deg;C</span>
+            <span class="windspeed">Wind Speed <span>10</span>m/s</span>
+          </p>
+        </div>
+        <img  id="spinner" src="https://placeimg.com/50/50/2" alt="2">
+      </section>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./main.js" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://localhost:8080/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
