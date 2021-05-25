@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #023047;
+  color: #ffb703;
+}
+:root{
+  --facebook: #3b5998;
+}
+.main{
+  font-size: 56px;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-time{
+  font-size: 3rem;
+  margin-top: 1rem;
+  color: var(--facebook);
+
+}
+
+.image-container{
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+  border: 2px solid var(--facebook);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+li {
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+  color: #fff;
+  background-image: url("https://placeimg.com/400/400/1");
+}
+
+.list0{
+  background-position-x: 0px;
+  background-position-y: 0px;
+
+
+}
+
+.list1{
+  background-position-x: -100px;
+  background-position-y: 0px;
+}
+
+.list2{
+  background-position-x: -200px;
+  background-position-y: 0px;
+}
+
+.list3{
+  background-position-x: -300px;
+  background-position-y: 0px;
+}
+
+.list4{
+  background-position-x: 0px;
+  background-position-y: -100px;
+}
+
+.list5{
+  background-position-x: -100px;
+  background-position-y: -100px;
+}
+
+.list6{
+  background-position-x: -200px;
+  background-position-y: -100px;
+}
+
+.list7{
+  background-position-x: -300px;
+  background-position-y: -100px;
+}
+
+.list8{
+  background-position-x: 0px;
+  background-position-y: -200px;
+}
+
+.list9{
+  background-position-x: -100px;
+  background-position-y: -200px;
+}
+
+.list10{
+  background-position-x: -200px;
+  background-position-y: -200px;
+}
+
+.list11{
+  background-position-x: -300px;
+  background-position-y: -200px;
+}
+
+.list12{
+  background-position-x: 0px;
+  background-position-y: -300px;
+}
+
+.list13{
+  background-position-x: -100px;
+  background-position-y: -300px;
+}
+
+.list14{
+  background-position-x: -200px;
+  background-position-y: -300px;
+}
+
+.list15{
+  background-position-x: -300px;
+  background-position-y: -300px;
+}
+.button{
+  display: flex;s
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  justify-content: center;
+  align-self: center;
+}
+#start-button{
+  background-color: var(--facebook);
+  color: #fff;
+  width: 100px;
+  height: 70px;
+  border: none;
+  margin-right: 10px;
+}
+
+#cheat-button{
+  padding: 0;
+  width: 30px;
+  height: 20px;
+  font-size: 8px;
+  color: #fff;
+}
