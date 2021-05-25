@@ -18,7 +18,7 @@ File contents
 
 3. Games
   + this unique folder includes two different types games (Party, TypingMaster).
-  + Party game is copied English shiritori also you can try it with your language, too.
+  + Party game copied to create English shiritori also you can try it with your language, too.
   + TypingMaster can help student want to improve their typing skills. it also works very well. Try it!
   
 4. Puzzle
