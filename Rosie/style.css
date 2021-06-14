@@ -10,7 +10,14 @@
 
 header{
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
 }
+
+
 /*Banner*/
 .Banner{
   display: flex;
@@ -29,10 +36,19 @@ header{
 }
 
 #quote{
-  animation: fadein 5s infinite;
+  animation: fadein5 5s infinite;
 }
 
-@keyframes fadein {
+@keyframes fadein5 {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes fadein8 {
   from {
       opacity: 0;
   }
@@ -113,6 +129,7 @@ header{
   width: 40px;
   height: 40px;
   background-image: url("https://github.com/JiyeonRosieKoo/htdocs/blob/master/login-icon.png?raw=true");
+  border-radius: 100% !important;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -121,6 +138,7 @@ header{
 /*Main List*/
 .main{
   width: 100%;
+  padding-top: 82px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -133,6 +151,10 @@ header{
   background-image: url("https://github.com/JiyeonRosieKoo/htdocs/blob/master/4759170.png?raw=true");
   background-size: contain;
   background-position: center;
+}
+.logo > a{
+  width: 150px;
+  height: 150px;
 }
 
 .type{
@@ -155,11 +177,11 @@ header{
   color: gray;
 }
 
-.main-contents-start{
+.main-contents-1{
   padding-left: 60px;
 }
 
-.main-contents-end{
+.main-contents-6{
   padding-right: 60px;
 }
 
@@ -173,6 +195,12 @@ header{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url('./resources/4.png');
+  background-position: center;
 }
 
 #left{
@@ -186,25 +214,192 @@ header{
 }
 .slide{
   flex: 8;
-  border: 5px solid var(--background);
+
 }
 
-.visual{
-  height: 500px;
-  background-image: url("https://github.com/JiyeonRosieKoo/htdocs/blob/d8b5f9c565a423b7d3fa52bf47173565f75ceb56/Resources/App2.jpg?raw=true");
-  background-size: cover;
-  overflow: hidden;
-}
 #right{
   flex: 2;
   text-align: center;
 }
 /*Space*/
 .btn-light{
-  background-color: var(--background) !important;
+  background-color: #EEEEEE !important;
   border: none !important;
 }
 .space{
   background-color: var(--background) !important;
+  height: 21px;
+}
+
+.space4{
+  background-color: var(--background) !important;
   height: 5px;
+}
+/* Main-profile */
+.main-profile{
+  margin-top: 3rem;
+  margin-left: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-profile-p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#me{
+  width: 200px;
+  height: 200px;
+  border: 1px solid gray;
+  border-radius: 50px;
+  background-image: url('./Resources/me.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.education > h3{
+  margin-top: 1rem;
+  text-align: center;
+  font-family: 'Honoria Sweet';
+  font-size: 24px;
+}
+.education > li{
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.profile-details > h2, .profile-details > h6{
+  font-family: "MunhwajaeDolbom Bold";
+}
+
+.directory{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.certifications > h6{
+  font-style: "MunhwajaeDolbom Bold";
+  border: 1px solid var(--background);
+  border-radius: 10px;
+  text-align: center;
+}
+.certifications > span {
+  font-size: 12px;
+  margin-right: 20px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+/* Footer */
+.footer{
+  background: var(--background);
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_wrapper{
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+  padding-left: 280px;
+  padding-bottom: 32px;
+  justify-content: space-between;
+}
+
+.footer_info_top{
+  width: 50px;
+  height: 20px;
+  background-image: url("https://github.com/JiyeonRosieKoo/htdocs/blob/master/smallLogo.png?raw=true");
+  background-size: contain;
+  background-position: center;
+}
+
+.footer_info_bottom{
+  font-size: 10px;
+}
+.footer_info_bottom > span{
+  margin-right: 10px;
+}
+
+.footer_right_wrapper{
+  padding-top: 45px;
+  padding-left: 900px;
+}
+
+
+.privacyLink{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.privacyLink > a{
+  margin-right: 10px;
+  width: 34px;
+  height: 34px;
+  border-radius: 100%;
+  background: #bdbdbd;
+  text-align: center;
+  line-height: 34px;
+}
+
+.DesLink{
+  margin-top: 10px;
+  font-size: 10px;
+  text-align: center;
+  color: gray;
+}
+
+#upButton{
+  -webkit-box-sizing: border-box;
+  position: fixed;
+  top: 730px;
+  right: 0;
+  margin-right: 22px;
+  width: 58px;
+  height: 58px;
+  border-radius: 100%;
+  border: none;
+  background: #848484;
+  text-align: center;
+  color: #fff;
+}
+
+.popupImg{
+  margin: 0;
+  padding: 0;
+  height: 700px;
+  width: 500px;
+  background-image: url("./resources/popup.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.modal-dialog{
+  border: none;
+  border-radius: 50% !important;
+}
+
+.modal-header{
+  font-family: 'MunhwajaeDolbom Bold';
+}
+
+.modal-header h5{
+  text-align: center;
+}
+
+.form1{
+  color: gray;
+}
+
+.result{
+  margin-top: 1rem;
+  margin-bottom: 0;
 }
