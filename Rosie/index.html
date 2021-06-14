@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rosie's House</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Baneer -->
+    <header>
+      <div class="Banner">
+        <div id="quote">Being creative & quickly-witted</div>
+        <audio controls loop id="music">
+          <source src="./SellBuyMusic.mp3" type="audio/mp3" />
+        </audio>
+      </div>
+      <div class="menu" style="height: 42px">
+        <!-- menu icon -->
+        <div class="menu-bar" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <!-- menu list -->
+        <div class="menu-content">
+          <ul class="menu-contents hidden" id="menu">
+            <li>University Final Project</li>
+            <li>Todo-List</li>
+            <li>Games</li>
+            <li>App</li>
+            <li>Weather</li>
+          </ul>
+        </div>
+        <div class="logging">
+          <h1 class="login">
+            <a href=""></a>
+          </h1>
+        </div>
+        <script>
+          function myFunction(x) {
+              x.classList.toggle("change");
+            }
+        </script>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <div class="main">
+      <h1 class="logo">
+        <a href=""></a>
+      </h1>
+      <h1 class="type">
+        PORTFOLIO
+      </h1>
+    </div>
+    <div class="main-content">
+      <ul class="main-contents">
+        <li class="main-contents-start">Project</li><span>|</span>
+        <li>Todo</li><span>|</span>
+        <li>Games</li><span>|</span>
+        <li>App</li><span>|</span>
+        <li class="main-contents-end">Weather</li>
+      </ul>
+    </div>
+    <div class="space">
+      <p></p>
+    </div>
+
+    <!-- Body -->
+    <div id="wrapper">
+      <div id="main-cover">
+        <div id="left">
+          <button type="button" class="btn btn-light" id="bt1"> &lt </button>
+        </div>
+        <div class="slide slide-light">
+          <div class="visual">
+          </div>
+          <div class="slide-des">
+          </div>
+        </div>
+        <div id="right">
+          <button type="button" class="btn btn-light" id="bt2"> &gt </button>
+        </div>
+      </div>
+      <div class="space">
+        <p></p>
+      </div>
+    </div>
+    <script src="./main.js" charset="utf-8"></script>
+  </body>
+</html>
