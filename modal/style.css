@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.modal-dialog{
+  border: none;
+  border-radius: 50% !important;
+}
+
+.modal-header{
+  font-family: 'MunhwajaeDolbom Bold';
+}
+
+.modal-header h5{
+  text-align: center;
+}
+
+.form1{
+  color: gray;
+}
+
+.btn-warning{
+  color: #fff !important;
+}
+
+.logging{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
